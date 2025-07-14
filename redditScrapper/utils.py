@@ -1,11 +1,5 @@
-"""
-PDF generation utility: creates styled persona PDFs using fpdf.
-"""
-
 from fpdf import FPDF
 from io import BytesIO
-
-
 def clean_text(text: str) -> str:
     """
     Replace smart quotes and unsupported chars with safe equivalents.

@@ -1,7 +1,3 @@
-"""
-Streamlit interface for generating and downloading Reddit personas.
-"""
-
 import os
 import streamlit as st
 from app import scrape_reddit_user, generate_persona

@@ -1,7 +1,3 @@
-"""
-Core logic: scrape Reddit user data, generate persona via Gemini.
-"""
-
 import os
 from dotenv import load_dotenv
 import praw
